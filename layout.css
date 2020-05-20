@@ -1,12 +1,12 @@
 .container {
-    width: 90%;
-    margin: 0 5%;
+    width: 80%;
+    margin: 0 10%;
 }
 .row {
     /* display: flex; */
     /* flex-wrap: wrap; */
 }
-.col-1, .col-3, .col-4, .col-6, .col-md-6, .col-lg-3 {
+.col-1, .col-3, .col-4, .col-6, .col-md-6, .col-lg-3, .col-md-4 {
     padding: 10px;
 }
 .col-1 {
@@ -22,12 +22,14 @@
     width: 50%;
 }
 
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .row {
         display: flex;
         flex-wrap: wrap;
+    }
+    .col-md-4 {
+        width: 33.3333%;
     }
     .col-md-6 {
         width: 50%;

@@ -5,7 +5,9 @@
     font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
 }
-
+img {
+    width: 100%;
+}
 /* Intro section */
 #intro {
     min-height: 100vh;
@@ -20,4 +22,21 @@
 /* Servicios */
 #services {
     margin-top: -100px;
+}
+
+/* News */
+.container-news {
+    max-width: 60%;
+    margin: 0 20%;
+}
+.container-news p {
+    line-height: 34px;
+}
+@media (min-width: 768px) {
+    .container-news .padding-left {
+        padding-left: 30px;
+    }
+    .container-news .padding-right {
+        padding-right: 30px;
+    }
 }
